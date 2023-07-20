@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Shimmer Deep Link</title>
+</head>
+<body>
+  <h1>Shimmer Deep Link</h1>
+  
+  <div>
+    <label for="numberInput">Geben Sie eine Zahl ein:</label>
+    <input type="number" id="numberInput" min="1" required>
+    
+    <button id="testButton" disabled>Test</button>
+  </div>
+  
+
+  <table id="controlInvoice">
+    <thead>
+      <tr>
+        <th>Zufällige Nummer</th>
+        <th>Summe</th>
+        <th>Transaktion</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Hier werden die Zeilen dynamisch erstellt -->
+    </tbody>
+  </table>
+
+  <script src="invoiceNumber.js"></script>
+  <script src="openWallet.js"></script>
+  <script src="metadata.js"></script>
+</body>
+</html>
